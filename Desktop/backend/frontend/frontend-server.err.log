@@ -1,0 +1,72 @@
+127.0.0.1 - - [28/Apr/2026 20:58:09] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 20:58:09] "GET /assets/career-hero.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:26:34] "GET /quiz.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:50:05] "GET /profile.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:40] "GET /profile.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:40] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:40] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:41] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:51:41] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:51:41] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:51:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:51:48] "GET /signin.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:48] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:51:48] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:51:48] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:51:50] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:50] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:51:50] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:51:52] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:52] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:51:52] "GET /assets/career-hero.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:51:52] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:51:52] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:51:58] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:51:58] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:51:58] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:52:01] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:52:01] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:52:12] "GET /profile.html HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:52:12] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:52:12] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:52:12] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:52:12] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:52:17] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:52:17] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:52:44] "GET /quiz.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 21:52:44] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:52:44] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:52:44] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:52:44] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:55:13] "GET /profile.html HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:55:13] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:55:13] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:55:13] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:55:13] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:55:47] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:55:47] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:55:47] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:55:47] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:55:52] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:55:52] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:56:00] "GET /profile.html HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:56:01] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:56:01] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 21:59:23] "GET /quiz.html HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:59:23] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:59:23] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 21:59:23] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 21:59:23] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 22:05:18] "GET /profile.html HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 22:05:18] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 22:05:18] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 22:05:18] "GET /assets/career-hero.png HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 22:05:18] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 22:05:18] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 22:05:31] "GET /quiz.html HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 22:05:31] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 22:05:31] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Apr/2026 22:05:58] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 22:05:58] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Apr/2026 22:05:58] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 22:05:58] "GET /sw.js HTTP/1.1" 404 -

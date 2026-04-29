@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - CareerPath Finder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo"><span class="logo-mark">CP</span> CareerPath Finder</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="quiz.html" class="nav-link">Find Career</a></li>
+        <li><a href="signin.html" class="nav-link">Sign In</a></li>
+        <li><a href="register.html" class="nav-link nav-cta active">Register</a></li>
+      </ul>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="auth-section">
+    <div class="container">
+      <div class="auth-card">
+        <div class="auth-header">
+          <p class="eyebrow">Create account</p>
+          <h1>Start your career journey</h1>
+          <p>Save your recommendations and build a simple career profile.</p>
+        </div>
+
+        <form id="registerForm" class="auth-form">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Create a password" required>
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <span>Create Account</span>
+          </button>
+        </form>
+
+        <div class="auth-footer">
+          <p>Already have an account? <a href="signin.html">Sign in here</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 CareerPath Finder. Built to help you plan with confidence.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
