@@ -1,7 +1,7 @@
 // CareerPath Finder - Complete JavaScript
 
 // API Base URL
-const API_BASE_URL = 'https://careerpath-backend-rpjc.onrender.com';
+const API_BASE_URL = 'https://careerpath-backend-rjpc.onrender.com/api';
 
 // DOM Elements
 let careerForm, resultsDiv, submitBtn, btnText;
