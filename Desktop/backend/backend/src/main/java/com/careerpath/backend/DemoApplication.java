@@ -13,6 +13,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.ByteArrayInputStream;
+import java.nio.charset.StandardCharsets;
 
 @SpringBootApplication
 public class DemoApplication {
@@ -25,11 +27,17 @@ public class DemoApplication {
     static class FirestoreConfig {
         @Bean
         public Firestore firestore(
+                @Value("${firebase.service-account.json:}") String serviceAccountJson,
                 @Value("${firebase.service-account.path:}") String serviceAccountPath,
                 @Value("${firebase.project-id:}") String projectId
         ) throws IOException {
             GoogleCredentials credentials;
-            if (StringUtils.hasText(serviceAccountPath)) {
+            if (StringUtils.hasText(serviceAccountJson)) {
+                try (ByteArrayInputStream credentialsStream =
+                             new ByteArrayInputStream(serviceAccountJson.getBytes(StandardCharsets.UTF_8))) {
+                    credentials = GoogleCredentials.fromStream(credentialsStream);
+                }
+            } else if (StringUtils.hasText(serviceAccountPath)) {
                 try (FileInputStream credentialsStream = new FileInputStream(serviceAccountPath)) {
                     credentials = GoogleCredentials.fromStream(credentialsStream);
                 }
